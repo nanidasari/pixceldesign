@@ -93,7 +93,7 @@ html,body{
     color: white;font-family: Alex Brush ;font-size: 40px;padding: 0px 20px 10px 20px;
   }
   .parag{
-    color: white;font-family:Poppins ;line-height: 2;text-align: center;padding: 0 50px 50px 50px;
+    color: white;font-family:Poppins ;line-height: 2;text-align: start;padding: 0 50px 50px 50px;
   }
   .para1{
     color: rgb(239, 255, 92);font-family: Alex Brush ;font-size: 40px;padding: 0px 20px 120px 20px;
