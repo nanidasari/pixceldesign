@@ -1,7 +1,7 @@
 *{ box-sizing: border-box;}
 
 html,body{
-    background: #0C0C0C;
+    background: #000000;
     margin: 0;
     padding: 0;
     scroll-behavior: smooth;
@@ -17,7 +17,7 @@ html,body{
 
     .head{
         width: 100%;display: flex;flex-direction: column;position: relative;height: 100%;
-        background-image: url(assets/backdrop.jpg);background-repeat: no-repeat;background-size: cover;background-attachment: fixed;
+        background-image: url(/assets/backdrop.jpg);background-repeat: no-repeat;background-size: cover;background-attachment: fixed;
 
       
     }
@@ -58,21 +58,18 @@ html,body{
         width: 50px;height: 50px;
     }
    .title{
-        display: flex;margin:0 0 6em 0;padding:0;flex-direction: column;align-items: center;justify-content: center;
+        display: flex;margin:0 0 7em 0;padding:0;flex-direction: column;align-items: center;justify-content: center;
        }
-      .name{
-        color: #f3f3f3;font-family:Wishful Display ;font-size: 15vw;margin: 0px;padding: 0 0 0px 0;
-     
-      }
+     .banner{
+      width: 700px;
+      height: 200px;
+     }
+
       .name1{
         color: #f3f3f3;font-family:Poppins ;font-size: 14px;text-align: center;margin:30px 0px 0px 0;
         padding: 0;line-height: 1.5;letter-spacing: 1px;border-left: solid 4px red;width: 47%;
       }
-     
-      .name2{
-         color: #f3f3f3;font-family:Montserrat Alternates ;font-size: 15px;;margin:0px 0 0px 0;padding: 0;line-height: 2;letter-spacing: 1px;
-        width: 35%;text-align: start;
-      }
+   
       .btn-grp{
         display: flex;justify-content: center;align-items: center;margin-top: 40px;
       }
@@ -85,5 +82,19 @@ html,body{
       .btn:hover{
         background-color: #0C0C0C;
       }
-  
-  
+ 
+  .cont-middle{
+    display: flex;justify-content: center;align-items: center;;
+  }
+  .vd-intro{
+    width: 70vw;border-radius: 40px;
+  }
+  .para{
+    color: white;font-family: Alex Brush ;font-size: 40px;padding: 0px 20px 10px 20px;
+  }
+  .parag{
+    color: white;font-family:Poppins ;line-height: 2;text-align: center;padding: 0 50px 50px 50px;
+  }
+  .para1{
+    color: rgb(239, 255, 92);font-family: Alex Brush ;font-size: 40px;padding: 0px 20px 120px 20px;
+  }
