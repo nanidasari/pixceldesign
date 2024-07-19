@@ -27,7 +27,7 @@
     text-decoration: none;color: #f3f3f3;padding: 15px ;cursor:pointer;font-family: Montserrat Alternates ;font-size: 15px;
   }
   .btn{
-    padding: 15px ; width: 150px;background-color: red;border: none; border-radius: 20px;
+    padding: 15px ; width: 200px;background-color: red;border: none; border-radius: 20px;
   }
   .btn:hover{
     background-color: #0C0C0C;border: solid 2px red;transition: 0.5s
@@ -36,8 +36,14 @@
   .intro{
     margin: 0;padding: 0px 0px 80px 0px;display: flex;justify-content: center;align-items: center;flex-direction: column;
   }
+  .para{
+    color: white;font-family: Montserrat Alternates ;font-size: 30px;padding: 20px 20px 0px 20px;font-weight: bold;
+  }
+  .parag{
+    color: white;font-family:Poppins ;line-height: 2;text-align: start;padding: 0 30px 50px 30px;
+  }
   .vd-intro{
-    width: 85vw;border-radius: 40px;
+    width: 85vw;border-radius: 20px;
   }
   .rigth-ham{
     padding: 10px 20px 0px 0;
@@ -45,6 +51,47 @@
    .icon{
     color: #f3f3f3;position: fixed;right: 20px;font-size: 30px;
    }
+   .cont-work{
+    display: flex;
+    justify-content: center;align-items: center;
+    margin: 20px;padding: 20px;flex-direction: column;
+   }
+   .cont-work{
+    display: flex;
+    justify-content: center;align-items: center;
+    margin: 5px;padding: 0px;
+   }
+   .grid-container {
+    display: grid;
+    grid-template-columns: auto ;border-radius: 2px;
+  
+    padding: 10px;
+  }
+  .grid-item {
+    border: 1px solid rgba(49, 49, 49, 0.8);
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+  }
+  .service{
+    margin: 0;padding: 10px;display: flex;flex-direction: column;justify-content: center;
+  }
+  .f-con{padding: 0px;margin: 0;
+    display: flex;justify-content: center;align-items: center;
+    flex-direction: column;width: 100%;
+  }
+  .f-left{margin: 20px 0 -10px 0;
+   }
+  
+  .f-middle{margin:-20px;
+    }
+  
+  .f-rigth{margin:0  0 0 -20px 0}
+  .footer{
+    background-color: #0a0909;
+    margin: 0;padding: 10px;display: flex;flex-direction:column ;justify-content: center;align-items: center;
+  }
+  
    
 }
 
@@ -68,7 +115,7 @@
         text-decoration: none;color: #f3f3f3;padding: 15px ;cursor:pointer;font-family: Montserrat Alternates ;font-size: 15px;
       }
       .btn{
-        padding: 15px ; width: 150px;background-color: red;border: none; border-radius: 20px;
+        padding: 15px ; width: 200px;background-color: red;border: none; border-radius: 20px;
       }
       .btn:hover{
         background-color: #0C0C0C;
@@ -76,7 +123,23 @@
       .intro{
         margin: 0;padding: 80px 30px 80px 30px;display: flex;justify-content: center;align-items: center;flex-direction: column;
       }
+      .para{
+        color: white;font-family: Montserrat Alternates ;font-size: 40px;padding: 0px 20px 0px 20px;font-weight: bold;
+      }
       .rigth-ham{
         display: none;
+   
+      }
+      .cont-work{
+        display: flex;
+        justify-content: center;align-items: center;
+        margin: 20px;padding: 20px;flex-direction: row;
        }
+       #hr{
+        display: none;
+   
+     }
+     .mobile-nav{
+      display: none;
+     }
   }
