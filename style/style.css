@@ -147,6 +147,7 @@ html,body{
  .c-right{display: flex;justify-content: center;align-items: center;flex-direction: column;
   background-color: black;margin: 20px;padding: 20px;border-radius: 10px;border: solid 2px rgb(41, 40, 40);
  }
+ 
  .bwp{
   color: #797878;
   font-family: Montserrat Alternates;font-size: 15px;line-height: 1.5;padding: 5px;
@@ -165,6 +166,9 @@ html,body{
   padding: 20px;
   font-size: 30px;backdrop-filter: blur(12px);
   text-align: center;margin: 20px;border-radius: 10px;display: flex;align-items: start;flex-direction: column;
+}
+.grid-item:hover{
+  border: 1px solid #b6038f;transition: 0.5s;
 }
 .service{
   margin: 0;padding: 10px;display: flex;flex-direction: row;justify-content: center;
