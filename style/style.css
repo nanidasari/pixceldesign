@@ -42,7 +42,7 @@ html,body{
     }
 
     .head{
-        width: 100%;display: flex;flex-direction: column;position: relative;height: 100%;
+        width: 100%;display: flex;flex-direction: column;position: relative;height: 100%;margin: 0;
         background-image: url(../assets/bg2.jpg);background-repeat: no-repeat;background-size: cover;background-attachment: fixed;
 
       
@@ -50,7 +50,7 @@ html,body{
    
     
     .nav{
-        display: block;
+        display: block;margin: 0;padding: 10px;
     }
 
     .li{
@@ -324,7 +324,7 @@ color: #5c5a5a;
   width: 250px;height: 250px;border-radius: 50%;
 }
 .team{
-  margin: 0;padding: 0px;background-color: rgb(32, 32, 32);display: flex;justify-content: center;
+  margin: 0;padding: 0px;background-color: rgb(5, 5, 5);display: flex;justify-content: center;
   align-items: center;flex-direction: column;
 }
 .founder{
@@ -334,8 +334,27 @@ color: #5c5a5a;
   color: #5c5a5a;text-align: center;font-size: 15px;line-height: 1;font-style: italic;
 }
 .team-flex{
-  margin: 30px  0 0 0;
+  margin: 30px  0 25px 0;background-color: #1b1b1b;padding: 30px;border-radius: 30px;
+}
+.team-flex:hover{
+  box-shadow: 2px 2px 20px 2px rgb(43, 16, 26);
 }
 .join{
   color: #eb6b02;text-align: center;
+}
+.contact{
+  padding: 20px 60px 60px 150px;margin: 0;display: flex;justify-content: center;
+  flex-direction: row;background-color: rgb(3, 3, 3)
+}
+.cont-left{
+  background-color: #ffffff;padding: 40px;border-radius: 10px;
+}
+.cont-right{
+  padding: 20px 20px 10px 50px;
+}
+.cont-des{
+  color: #ffffff;font-family:Elephant;font-size: 30px;
+}
+.duration{
+  color: #cac9c9;
 }

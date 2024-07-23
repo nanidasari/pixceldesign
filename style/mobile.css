@@ -91,6 +91,13 @@
     background-color: #0a0909;
     margin: 0;padding: 10px;display: flex;flex-direction:column ;justify-content: center;align-items: center;
   }
+  .contact{
+    flex-direction: column;
+    padding: 60px 30px 60px 30px;margin: -10px;
+  }
+  .cont-right{
+    padding: 20px 20px 10px 20px;
+  }
   
    
 }
