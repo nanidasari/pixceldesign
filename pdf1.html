@@ -9,11 +9,20 @@
     <title>Project</title>
 </head>
 <body>
-    <object class="pdf" 
-            data=
-"assets/pdf/Untitled-3.pdf"
-            width="100%"
-            height="650vh">
-    </object>
+    <div id="viewer" style="width: 100%; height: 100vh;"></div>
+    <script type="text/javascript" src="https://cloudpdf.io/viewer.min.js"></script>
+    <script>
+      const config = { 
+        documentId: 'b5fc8dee-2eb1-4bf5-909e-c6d4dc4131e4',
+        darkMode: true, 
+        token: '' //add your server side generated security token or change your document permission to public
+      };
+      CloudPDF(config, document.getElementById('viewer')).then((instance) => {
+        
+      });
+    </script>
+    
+         
+    
 </body>
 </html>
