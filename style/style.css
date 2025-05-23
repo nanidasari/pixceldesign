@@ -15,6 +15,7 @@ body::-webkit-scrollbar-thumb {
 
 }
 
+
 html,body{
   overflow-x: hidden;
   scrollbar-width: thin;          /* "auto" or "thin" */
@@ -81,7 +82,7 @@ html,body{
         width: 100%;
     }
     .log{
-        width: 50px;height: 50px;
+        width: 40px;height: 50px; padding: 8px;
     }
    .title{
         display: flex;margin:0 0 7em 0;padding:0;flex-direction: column;align-items: center;justify-content: center;
@@ -110,10 +111,10 @@ html,body{
       }
  
   .cont-middle{
-    display: flex;justify-content: center;align-items: center;;
+    display: flex;justify-content: center;align-items: center;
   }
   .vd-intro{
-    width: 70vw;border-radius: 30px;
+    width: 70vw;border-radius: 0px 30px 0 30px;
   }
   
   .parag{
@@ -142,7 +143,7 @@ html,body{
   background-color: black;margin: 20px;padding: 20px;border-radius: 10px;border: solid 2px rgb(41, 40, 40);
  }
  .c-middle{display: flex;justify-content: center;align-items: center;flex-direction: column;
-  background-color:black;margin: 20px;padding: 20px;border-radius: 10px;border: solid 2px rgb(41, 40, 40);
+  background-color:black;margin: 20px;padding: 20px;border: solid 2px rgb(41, 40, 40);border-radius: 10px;
  }
  .c-right{display: flex;justify-content: center;align-items: center;flex-direction: column;
   background-color: black;margin: 20px;padding: 20px;border-radius: 10px;border: solid 2px rgb(41, 40, 40);
@@ -334,7 +335,7 @@ color: #5c5a5a;
   color: #5c5a5a;text-align: center;font-size: 15px;line-height: 1;font-style: italic;
 }
 .team-flex{
-  margin: 30px  0 25px 0;background-color: #1b1b1b;padding: 30px;border-radius: 30px;
+  margin: 30px  30px 25px 30px;background-color: #1b1b1b;padding: 30px;border-radius: 30px;
 }
 .team-flex:hover{
   box-shadow: 2px 2px 20px 2px rgb(43, 16, 26);
